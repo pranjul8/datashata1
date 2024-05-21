@@ -8,7 +8,7 @@ app.static_folder = 'static'
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # Set up MongoDB Atlas connection (replace with your connection string)
-uri = "mongodb+srv://monkeyman22:mongo2213591@cluster0.zubvmnw.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://monkeyman22:mongo2213591@cluster0.zubvmnw.mongodb.net/"
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client.get_database("studentdata1")
 
